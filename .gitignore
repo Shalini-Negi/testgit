@@ -1,0 +1,17 @@
+/text.txt
+# ignore text.txt file located in root directory
+/text.txt
+#ignore any text.txt file
+text.txt
+#if you wan to ignore entire directory
+newdirectory
+# file or directory name starting with img
+img*
+# ignoring all .pdf files
+*.pdf
+# ignore all markdown files having .md extention
+!README.md
+#file ending with ".o" or ".a"
+*.[oa]
+#file ending with a tide (~)
+*~
